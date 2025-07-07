@@ -298,6 +298,9 @@ app.put('/api/users/:id', (req, res) => {
     res.status(201).json(newUser);
   }
 });
+app.get("/", (req, res) => {
+  res.send("Backend is working!");
+});
 
 // ❌ REMOVE this on Vercel
 // const PORT = process.env.PORT || 5000;
