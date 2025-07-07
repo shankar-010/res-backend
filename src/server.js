@@ -228,7 +228,7 @@ const app = express();
 const cors = require('cors');
 
 const corsOptions = {
-  origin: 'res-frontend-teal.vercel.app',
+  origin: 'https://res-frontend-teal.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
